@@ -1,0 +1,63 @@
+/* global */
+body {
+	background-color: #353b49;
+}
+
+/* navbar */
+.navbar-brand {
+	display: flex;
+	align-items: center;
+}
+.navbar-brand img {
+	margin-right: 0.5rem;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar-expand-lg .navbar-collapse {
+	justify-content: flex-end;
+}
+@media screen and (max-width: 990px) {
+	.logo {
+		width: 100%;
+	}
+}
+
+/* home */
+
+/* jumbotron */
+
+.header {
+	background-color: #50586d;
+	align-items: center;
+	margin-bottom: 4rem;
+}
+.header .text {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+.header .text a {
+	width: fit-content;
+}
+/* carosel */
+.carousel-item {
+	height: 100%;
+}
+.carousel-item img {
+	width: 100%;
+	height: auto;
+}
+
+/* cards */
+.cards {
+	padding: 5rem 0;
+}
+.card {
+	width: 25rem;
+	border: none;
+	background-color: #50586d;
+}
