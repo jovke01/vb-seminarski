@@ -55,10 +55,12 @@ a {
 	height: auto;
 }
 
+/* features */
+.feature {
+	background-color: #50586d;
+}
+
 /* cards */
-/* .cards {
-	padding: 5rem 0;
-} */
 .card {
 	width: 25rem;
 	border: none;
