@@ -7,6 +7,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+p {
+	margin-bottom: 0;
+}
 body {
 	background-color: #353b49;
 }
@@ -104,4 +107,46 @@ ul {
 .about-img {
 	width: 100%;
 	margin-bottom: 3rem;
+}
+
+/* projekcije */
+.datumi {
+	overflow-x: auto;
+}
+.datum {
+	display: flex;
+	align-items: center;
+	padding: 0.5rem;
+	margin-right: 1rem;
+}
+.datum:first-child {
+	background-color: #e3aa0d;
+}
+.datum p {
+	margin-bottom: 0;
+}
+.projekcije-card {
+	background-color: var(--main-colour);
+}
+.projekcije-card p {
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+	.projekcije-cont {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.projekcije-card img {
+		height: 20rem;
+	}
+}
+.tag {
+	width: fit-content;
+}
+.proj-times .time {
+	width: fit-content;
 }
