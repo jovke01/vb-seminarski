@@ -1,9 +1,13 @@
 /* global */
+:root {
+	--main-colour: #50586d;
+}
 body {
 	background-color: #353b49;
 }
 a {
 	text-decoration: none;
+	color: inherit;
 }
 ul {
 	list-style-type: none;
@@ -38,7 +42,7 @@ ul {
 /* jumbotron */
 
 .header {
-	background-color: #50586d;
+	background-color: var(--main-colour);
 	align-items: center;
 	margin-bottom: 4rem;
 }
@@ -61,20 +65,20 @@ ul {
 
 /* features */
 .feature {
-	background-color: #50586d;
+	background-color: var(--main-colour);
 }
 
 /* cards */
 .card {
 	width: 25rem;
 	border: none;
-	background-color: #50586d;
+	background-color: var(--main-colour);
 }
 
 /* footer */
 
 .footer-cont {
-	background-color: #50586d;
+	background-color: var(--main-colour);
 }
 /* .footer{
 	
