@@ -27,6 +27,18 @@ ul {
 .navbar-brand img {
 	margin-right: 0.5rem;
 }
+.nav-link::after {
+	content: " ";
+	display: block;
+	height: 2px;
+	width: 0;
+	background: #e84118;
+	-webkit-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+.nav-link:hover:after {
+	width: 100%;
+}
 
 .logo {
 	display: flex;
