@@ -5,6 +5,10 @@ body {
 a {
 	text-decoration: none;
 }
+ul {
+	list-style-type: none;
+	margin: 0;
+}
 
 /* navbar */
 .navbar-brand {
@@ -66,3 +70,12 @@ a {
 	border: none;
 	background-color: #50586d;
 }
+
+/* footer */
+
+.footer-cont {
+	background-color: #50586d;
+}
+/* .footer{
+	
+} */
