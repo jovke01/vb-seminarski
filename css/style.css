@@ -98,3 +98,10 @@ ul {
 }
 
 /* o nama */
+.hero-onama {
+	background-color: var(--main-colour);
+}
+.about-img {
+	width: 100%;
+	margin-bottom: 3rem;
+}
