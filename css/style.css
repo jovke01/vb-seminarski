@@ -96,6 +96,7 @@ ul {
 	align-items: center;
 	padding: 0.5rem;
 	margin-right: 1rem;
+	cursor: pointer;
 }
 .datum:first-child {
 	background-color: #e3aa0d;
