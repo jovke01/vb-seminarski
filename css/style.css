@@ -229,3 +229,10 @@ ul {
 .form-img img {
 	width: 100%;
 }
+/* table */
+.table {
+	height: 60vh;
+}
+.table-cont {
+	overflow-x: scroll;
+}

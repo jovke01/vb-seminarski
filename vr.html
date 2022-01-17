@@ -8,7 +8,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-        <title>Cinema - Rezervacije</title>
+        <title>Cinema - Vaše rezervacije</title>
     </head>
 
     <body>
@@ -67,70 +67,25 @@
                 <h2 class="mb-0">Rezervacije</h2>
             </div>
         </div>
-        <div class="container text-light d-flex flex-column-reverse flex-md-row align-items-center justify-content-between  form-cont">
-            <form class="form d-flex flex-column justify-content-evenly">
-                <h2>Rezervišite vašu kartu</h2>
-                <div class="mail">
-                    <label for="email">Unesite vašu e-mail adresu:</label>
-                    <input type="email" id="email" name="email" required="">
-                </div>
-                <div class="phone">
-                    <label for="telefon">Unesite vaš mobilni telefon: </label>
-                    <input type="tel" id="tel" name="tel" required="" pattern="[3][8][1]{1}[6]{1}[0-9]/[0-9]{2}-[0-9]{2}-[0-9]{3}" placeholder="npr: 38160/12-34-567">
-                </div>
-                <div class="movie">
-                    <label for="film">Izaberite željeni film: </label>
-                    <select name="film" id="film" required="">
-                        <option value="House of Gucci">House of Gucci</option>
-                        <option value="Spider-Man: No Way Home">Spider-Man: No Way Home</option>
-                        <option value="The Matrix Resurrections">The Matrix Resurrections</option>
-                        <option value="Clifford the Big Red Dog">Clifford the Big Red Dog</option>
-                        <option value="Dune">Dune</option>
-                        <option value="No Time to Die">No Time to Die</option>
-                        <option value="Wrong Turn: Foundation">Wrong Turn: Foundation</option>
-                    </select>
-                </div>
-                <div class="time">
-                    <p>Izaberite vreme projekcije:</p>
-                    <div>
-                        <input class="time-rb" type="radio" id="time1" name="time" value="15:30" checked="">
-                        <label for="time1">15:30</label>
-                    </div>
-                    <div>
-                        <input class="time-rb" type="radio" id="time2" name="time" value="17:00">
-                        <label for="time2">17:00</label>
-                    </div>
-                    <div>
-                        <input class="time-rb" type="radio" id="time3" name="time" value="18:30">
-                        <label for="time3">18:30</label>
-                    </div>
-                    <div>
-                        <input class="time-rb" type="radio" id="time4" name="time" value="20:00">
-                        <label for="time4">20:00</label>
-                    </div>
-                    <div>
-                        <input class="time-rb" type="radio" id="time5" name="time" value="21:30">
-                        <label for="time5">21:30</label>
-                    </div>
-                </div>
-                <div class="br">
-                    <label for="br_karata">Izaberite broj željeni broj karata</label>
-                    <input type="number" id="number" name="number" min="1" max="99" required="">
-                </div>
-
-                <div class="btns">
-                    <a href="vase-rezervacije.html"><input class="btn btn-primary" type="submit" id="submit"></a>
-                    <div class="links mt-4">
-                        <a class="btn btn-outline-light " href="vr.html">Vaše rezervacije</a>
-                        <a class=" btn btn-outline-light" href="index.html">Početna</a>
-                    </div>
-                </div>
-            </form>
-            <div class="form-img my-2">
-                <img src="/img/ticket.png" alt="golden ticket">
-            </div>
+        <div class="container table-cont">
+            <table class="table text-light">
+                <thead>
+                    <!--Table Head-->
+                    <tr>
+                        <th>Email:</th>
+                        <th>Telefon:</th>
+                        <th>Film:</th>
+                        <th>Vreme:</th>
+                        <th>Broj karata:</th>
+                        <th></th>
+                        <!--Table Heading-->
+                        <!--Table Heading-->
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+            </table>
         </div>
-
 
 
 
@@ -180,7 +135,7 @@
         </div>
         <script src="https://kit.fontawesome.com/6e34f58953.js" crossorigin="anonymous"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="/js/rezervacije.js"></script>
+        <script src="/js/vr.js"></script>
     </body>
 
 </html>
