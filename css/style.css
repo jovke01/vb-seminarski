@@ -64,30 +64,6 @@ ul {
 
 /* home */
 
-/* jumbotron */
-
-.header-home {
-	background-color: var(--main-colour);
-	align-items: center;
-	margin-bottom: 4rem;
-}
-.header-home .text {
-	display: flex;
-	justify-content: space-evenly;
-	flex-direction: column;
-}
-.header-home .text a {
-	width: fit-content;
-}
-/* carosel */
-.carousel-item {
-	height: 100%;
-}
-.carousel-item img {
-	width: 100%;
-	height: auto;
-}
-
 /* features */
 .feature {
 	background-color: var(--main-colour);
@@ -106,6 +82,8 @@ ul {
 }
 .about-img {
 	width: 100%;
+	height: 30rem;
+	object-fit: cover;
 	margin-bottom: 3rem;
 }
 
@@ -235,4 +213,12 @@ ul {
 }
 .table-cont {
 	overflow-x: scroll;
+}
+
+/* stampa */
+.stampa-body {
+	background: #fff;
+}
+.stampa {
+	margin-top: 10rem;
 }
