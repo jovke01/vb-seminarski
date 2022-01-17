@@ -134,9 +134,20 @@ ul {
 	-webkit-box-orient: vertical;
 	overflow: hidden;
 }
+
 @media screen and (min-width: 768px) {
 	.projekcije-cont {
-		width: 80%;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.projekcije-card img {
+		height: 20rem;
+	}
+}
+@media screen and (min-width: 1920px) {
+	.projekcije-cont {
+		width: 30%;
 		margin-left: auto;
 		margin-right: auto;
 	}
