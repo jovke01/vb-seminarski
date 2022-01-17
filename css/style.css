@@ -214,3 +214,18 @@ ul {
 		margin-bottom: 15rem;
 	}
 }
+
+/* rezervacije */
+
+.form-cont {
+	height: 80vh;
+}
+.form {
+	height: 100%;
+}
+.form-img {
+	width: 50%;
+}
+.form-img img {
+	width: 100%;
+}
