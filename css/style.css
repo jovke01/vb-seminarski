@@ -197,3 +197,20 @@ ul {
 		margin-bottom: 10rem;
 	}
 }
+
+/* faq */
+@media screen and (min-width: 768px) {
+	.faq {
+		margin-bottom: 7rem;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.faq {
+		margin-bottom: 12rem;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.faq {
+		margin-bottom: 15rem;
+	}
+}
